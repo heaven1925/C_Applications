@@ -1,0 +1,8 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\AtakanErtekin\Desktop\WorkSpace\VSC_WorkSpace\014_valWithoutval\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(12,12): warning C4477: 'printf' : '%X' biçim dizesi 'unsigned int' türü bir bağımsız değişken gerektirir, ancak 1 değişen sayıda bağımsız değişkenin türü 'uint64_t'
+C:\Users\AtakanErtekin\Desktop\WorkSpace\VSC_WorkSpace\014_valWithoutval\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(12,12): message : biçim dizesinde '%llX' kullanmayı düşünün
+C:\Users\AtakanErtekin\Desktop\WorkSpace\VSC_WorkSpace\014_valWithoutval\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(12,12): message : biçim dizesinde '%IX' kullanmayı düşünün
+C:\Users\AtakanErtekin\Desktop\WorkSpace\VSC_WorkSpace\014_valWithoutval\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(12,12): message : biçim dizesinde '%I64X' kullanmayı düşünün
+C:\Users\AtakanErtekin\Desktop\WorkSpace\VSC_WorkSpace\014_valWithoutval\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(16,12): warning C4477: 'printf' : '%p' biçim dizesi 'void *' türü bir bağımsız değişken gerektirir, ancak 1 değişen sayıda bağımsız değişkenin türü 'int'
+C:\Users\AtakanErtekin\Desktop\WorkSpace\VSC_WorkSpace\014_valWithoutval\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(16,12): warning C4313: 'printf': biçim dizesindeki '%p', 1 bağımsız değişkeniyle (türü 'int') çakışıyor
+  ConsoleApplication1.vcxproj -> C:\Users\AtakanErtekin\Desktop\WorkSpace\VSC_WorkSpace\014_valWithoutval\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

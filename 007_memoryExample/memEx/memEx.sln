@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memEx", "memEx\memEx.vcxproj", "{EFC4B80C-7FDE-475F-A4A6-7D6D9047A48F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFC4B80C-7FDE-475F-A4A6-7D6D9047A48F}.Debug|x64.ActiveCfg = Debug|x64
+		{EFC4B80C-7FDE-475F-A4A6-7D6D9047A48F}.Debug|x64.Build.0 = Debug|x64
+		{EFC4B80C-7FDE-475F-A4A6-7D6D9047A48F}.Debug|x86.ActiveCfg = Debug|Win32
+		{EFC4B80C-7FDE-475F-A4A6-7D6D9047A48F}.Debug|x86.Build.0 = Debug|Win32
+		{EFC4B80C-7FDE-475F-A4A6-7D6D9047A48F}.Release|x64.ActiveCfg = Release|x64
+		{EFC4B80C-7FDE-475F-A4A6-7D6D9047A48F}.Release|x64.Build.0 = Release|x64
+		{EFC4B80C-7FDE-475F-A4A6-7D6D9047A48F}.Release|x86.ActiveCfg = Release|Win32
+		{EFC4B80C-7FDE-475F-A4A6-7D6D9047A48F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CECC1934-6E06-4BB5-850A-4DE7421FD5C5}
+	EndGlobalSection
+EndGlobal

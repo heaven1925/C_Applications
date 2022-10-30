@@ -1,0 +1,6 @@
+﻿  pointerDenemeleri.cpp
+C:\Users\AtakanErtekin\Desktop\WorkSpace\VSC_WorkSpace\010_pointerDenemeleri\pointerDenemeleri\pointerDenemeleri\pointerDenemeleri.cpp(85,12): warning C4477: 'printf' : '%p' biçim dizesi 'void *' türü bir bağımsız değişken gerektirir, ancak 1 değişen sayıda bağımsız değişkenin türü 'int'
+C:\Users\AtakanErtekin\Desktop\WorkSpace\VSC_WorkSpace\010_pointerDenemeleri\pointerDenemeleri\pointerDenemeleri\pointerDenemeleri.cpp(85,12): warning C4313: 'printf': biçim dizesindeki '%p', 1 bağımsız değişkeniyle (türü 'int') çakışıyor
+C:\Users\AtakanErtekin\Desktop\WorkSpace\VSC_WorkSpace\010_pointerDenemeleri\pointerDenemeleri\pointerDenemeleri\pointerDenemeleri.cpp(86,12): warning C4477: 'printf' : '%p' biçim dizesi 'void *' türü bir bağımsız değişken gerektirir, ancak 1 değişen sayıda bağımsız değişkenin türü 'int'
+C:\Users\AtakanErtekin\Desktop\WorkSpace\VSC_WorkSpace\010_pointerDenemeleri\pointerDenemeleri\pointerDenemeleri\pointerDenemeleri.cpp(86,12): warning C4313: 'printf': biçim dizesindeki '%p', 1 bağımsız değişkeniyle (türü 'int') çakışıyor
+  pointerDenemeleri.vcxproj -> C:\Users\AtakanErtekin\Desktop\WorkSpace\VSC_WorkSpace\010_pointerDenemeleri\pointerDenemeleri\x64\Debug\pointerDenemeleri.exe

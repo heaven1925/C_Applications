@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1655723311 source:c:\users\atakanertekin\desktop\workspace\c_uygulamalar\001_test\memcpy_ex\main.c
+	<stdio.h>
+	<stdlib.h>
+

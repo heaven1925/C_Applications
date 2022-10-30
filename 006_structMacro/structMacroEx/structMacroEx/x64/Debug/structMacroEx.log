@@ -1,0 +1,2 @@
+﻿  structMacroEx.cpp
+C:\Users\AtakanErtekin\Desktop\WorkSpace\VSC_WorkSpace\006_structMacro\structMacroEx\structMacroEx\structMacroEx.cpp(59,5): error C7555: belirlenmiş başlatıcı kullanımı en azından '/std:c++20' gerektirir

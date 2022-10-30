@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1661763265 source:c:\users\atakanertekin\desktop\workspace\vsc_workspace\007_memoryexample\memex\example\main.c
+	"stdio.h"
+	"stdint.h"
+	"stdarg.h"
+	"string.h"
+
