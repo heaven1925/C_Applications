@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\AtakanErtekin\Desktop\WorkSpace\C_Uygulamalar\C_PROGRAMMING_CODES\019_unionStruct_example\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(67,9): warning C4477: 'printf' : '%X' biçim dizesi 'unsigned int' türü bir bağımsız değişken gerektirir, ancak 1 değişen sayıda bağımsız değişkenin türü 'uint8_t *'
+C:\Users\AtakanErtekin\Desktop\WorkSpace\C_Uygulamalar\C_PROGRAMMING_CODES\019_unionStruct_example\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(67,9): warning C4313: 'printf': biçim dizesindeki '%X', 1 bağımsız değişkeniyle (türü 'uint8_t *') çakışıyor
+C:\Users\AtakanErtekin\Desktop\WorkSpace\C_Uygulamalar\C_PROGRAMMING_CODES\019_unionStruct_example\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(91,9): warning C4477: 'printf' : '%d' biçim dizesi 'int' türü bir bağımsız değişken gerektirir, ancak 1 değişen sayıda bağımsız değişkenin türü 'size_t'
+C:\Users\AtakanErtekin\Desktop\WorkSpace\C_Uygulamalar\C_PROGRAMMING_CODES\019_unionStruct_example\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(91,9): message : biçim dizesinde '%zd' kullanmayı düşünün
+  ConsoleApplication1.vcxproj -> C:\Users\AtakanErtekin\Desktop\WorkSpace\C_Uygulamalar\C_PROGRAMMING_CODES\019_unionStruct_example\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
