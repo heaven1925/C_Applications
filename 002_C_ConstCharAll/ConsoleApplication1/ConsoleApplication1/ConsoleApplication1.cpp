@@ -7,19 +7,16 @@
 #include "stdio.h"
 #include "string.h"
 
-const char data[2][5] = { "aaa\x72", "bbbb"};
-
-int main()
-
+int main(void)
 {
-    printf("%s \n%s \n", &data[0], &data[1]);
+    const char data[10] = "Atakan";
 
-    uint8_t* pData = (uint8_t*)&data[0][0];
+    char* pData = &data[0];
 
-    printf("%p \n", pData);
+    printf("%c \n", pData[0] );
 
-    printf("%p \n", (pData+4) );
+    *pData = 'e';
 
-    printf("%c \n", *(pData + 3));
+    printf("%c \n", pData[0]);
 
 }

@@ -6,30 +6,25 @@
 uint8_t** ppAllocation = NULL;
 uint8_t* pAllocation = NULL;
 
+uint32_t val = 0xDEADBEEF;
+
 int main()
 {
-    printf("*******************\n");
-    ppAllocation = (uint8_t**)malloc( sizeof(uint8_t) ); // 4 Byte adres adres ayırılıyor
-    /* ppAllocation'a alan ayrıldıgı zaman pAllocation'a alan ayrilmiyor ! */
-    printf("ppAllocation  = %p \n", ppAllocation);
-    printf("*ppAllocation = %p \n", *ppAllocation);
+    
+    // Double pointer bi alan allocate edildiği zaman işaret ettiği alan mevcut değil.
+    ppAllocation = (uint8_t**)malloc(sizeof(uint32_t));
+    printf("%p \n", *ppAllocation);
 
-    /* pAllocation için de alan ayriliyor.*/
-    printf("*******************\n");
-    pAllocation = (uint8_t*)malloc(sizeof(uint8_t)); // 4 Byte adres adres ayırılıyor
-    *ppAllocation = pAllocation; /* Adres */
-    printf("ppAllocation  = %p \n", ppAllocation);
-    printf("*ppAllocation = %p \n", *ppAllocation);
-    printf("*******************\n");
+    // pAllocation'ın işaret edeceği bir alan oluşturuluyor.
+    *ppAllocation = (uint8_t*)malloc(sizeof(uint32_t));
+    printf("%p \n", *ppAllocation);
 
-    **ppAllocation = 0xBB;
-    printf("%X \n", *pAllocation);
-    printf("%X \n", **ppAllocation);
+    // pAllocation ile ayırılan yere değer yazılıyor.
+    **ppAllocation = 255;
+    printf("%d\n", **ppAllocation);
 
-    /* ppAllocation alani free ediliyor */
-    free(ppAllocation);
-    printf("ppAllocation  = %p \n", ppAllocation);
-    printf("*ppAllocation = %p \n", *ppAllocation);
-    printf("*ppAllocation = %p \n", pAllocation);
+    // pAllocation free ediliyor.
+    free(*ppAllocation);
+    printf("%d\n", **ppAllocation);
 
 }

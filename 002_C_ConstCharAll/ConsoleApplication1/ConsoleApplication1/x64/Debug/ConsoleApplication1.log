@@ -1,2 +1,3 @@
 ﻿  ConsoleApplication1.cpp
-  ConsoleApplication1.vcxproj -> C:\Users\AtakanErtekin\Desktop\WorkSpace\VSC_WorkSpace\002_C_ConstCharAll\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+C:\Users\AtakanErtekin\Desktop\WorkSpace\C_Uygulamalar\C_PROGRAMMING_CODES\002_C_ConstCharAll\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(14,27): error C2440: 'başlatılıyor': 'const char *' - 'char *' dönüşümü yapılamıyor
+C:\Users\AtakanErtekin\Desktop\WorkSpace\C_Uygulamalar\C_PROGRAMMING_CODES\002_C_ConstCharAll\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(14,17): message : Dönüştürme niteleyicileri kaybediyor
