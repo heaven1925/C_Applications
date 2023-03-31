@@ -1,3 +1,0 @@
-﻿  ConsoleApplication1.cpp
-C:\Users\AtakanErtekin\Desktop\WorkSpace\VSC_WorkSpace\13_pointerTest\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(79,11): warning C4101: 'tempVal1_u32': yerel değişken başvurusu kaldırıldı
-  ConsoleApplication1.vcxproj -> C:\Users\AtakanErtekin\Desktop\WorkSpace\VSC_WorkSpace\13_pointerTest\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
